@@ -1,6 +1,14 @@
 # RobotFramework_APIAutomation_PythonProject
 This is API-Automation Python Project using RobotFramework.
 
+Here we will automate below Request-Types =>
+1) GET - Retrive Data from API Service/Server
+2) POST - Create new request/data to API Service/Server
+3) PUT - Update existing request/data from API Service/Server - Need to send all required fields.
+4) DELETE - Delete existing request/data from API Service/Server
+5) PATCH - Update existing request/data - only need to send updated data.
+
+
 # Requirement for RobotFramework - APIAutomation
 1) Python 
 2) IDE - VS Code, Pycharm, Eclipse etc.
