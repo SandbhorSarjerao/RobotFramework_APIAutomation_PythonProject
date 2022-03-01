@@ -36,12 +36,14 @@ Here we will automate below Request-Types =>
          pip install "---PATH---\robotframework-jsonlibrary-master"
   
       
-      
-      
-      
+# JSON Formatter =>
+  https://jsonpath.com/
+  https://jsonformatter.org/    
+           
       
  # Documentation ==>
  1) https://github.com/MarketSquare/robotframework-requests
  2) https://robotframework-thailand.github.io/robotframework-jsonlibrary/
  3) https://robotframework-thailand.github.io/robotframework-jsonlibrary/JSONLibrary.html
  4) Sample API - http://thetestingworldapi.com/Help
+ 5) Sample API with Parameters - https://reqres.in/api/users?page=2
