@@ -18,23 +18,29 @@ Here we will automate below Request-Types =>
    3) SeleniumLibrary - pip install SeleniumLibrary
    4) Intellibot Plugin
    5) Requests Library =>
-      robotframework-request - pip install robotframework-requests
-      requests - pip install requests
+
+      i) robotframework-request - pip install robotframework-requests
+      
+      ii) requests - pip install requests
    7) Robotframework-jsonlibrary - 
-      pip install jsonpath_rw
-      pip install jsonpath_rw_ext
-      pip install robotframework-jsonlibrary 
-      If above command doesn't work follow below steps
-      i) Download ZIP Library from https://github.com/nottyo/robotframework-jsonlibrary
-      ii) Unzip the above jsonlibrary
-      iii) Edit "__init__.py" file from "JSONLibrary" folder. Replace the first 2 import lines with below -
-           from JSONLibrary.JSONLibraryKeywords import JSONLibraryKeywords
-           from JSONLibrary.version import VERSION
-      iv) Edit "JSONLibraryKeywords.py" from from "JSONLibrary" folder. Replace line-4 with below line -
-          from JSONLibrary.version import VERSION
-      v) Run below PIP command to apply the JSONLibrary
-         pip install "---PATH---\robotframework-jsonlibrary-master"
-  
+
+      i) pip install jsonpath_rw
+      
+      ii) pip install jsonpath_rw_ext
+      
+      iii) pip install robotframework-jsonlibrary 
+      
+            If above command doesn't work follow below steps
+            i) Download ZIP Library from https://github.com/nottyo/robotframework-jsonlibrary
+            ii) Unzip the above jsonlibrary
+            iii) Edit "__init__.py" file from "JSONLibrary" folder. Replace the first 2 import lines with below -
+                 from JSONLibrary.JSONLibraryKeywords import JSONLibraryKeywords
+                 from JSONLibrary.version import VERSION
+            iv) Edit "JSONLibraryKeywords.py" from from "JSONLibrary" folder. Replace line-4 with below line -
+                from JSONLibrary.version import VERSION
+            v) Run below PIP command to apply the JSONLibrary
+               pip install "---PATH---\robotframework-jsonlibrary-master"
+
       
 # JSON Formatter =>
   https://jsonpath.com/
